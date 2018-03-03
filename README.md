@@ -1,11 +1,11 @@
 # Project 6: Brevet time calculator service
 
-##Author Information
+## Author Information
 
 Name: Michael Welch  
 Email: michael.welch.99@gmail.com
 
-##About
+## About
 
 The Brevet Control Time Calculator uses the specifications given by the ACP.
 
@@ -13,11 +13,11 @@ The Open and Close Times are calculated using the table specified by the ACP fou
 
 The Official ACP Form Based Calculator is located here - https://rusa.org/octime_acp.html
 
-##Update
+## Update
 
 Now implements RESTFUL API  
 
-###How to Expose Data
+### How to Expose Data
 
 Adding the following extensions to the URL will output data in either JSON or csv format.  
 
@@ -34,7 +34,7 @@ List only close times from database (default : JSON Format, can be specified wit
 The 'top' URL variable can be changed to display only top x times.  Works with any previous URL.  
 Usage: Append ?top=x to display top x times  
 
-##Specifics
+## Specifics
 
 Calculating the Open and Close Times is done by taking the Control Distance and dividing by the number specified by the table.  
 Ex: 150km
